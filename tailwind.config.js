@@ -30,6 +30,8 @@ module.exports = {
         'theme-purple': '#000000',
         'dark-theme-purple': '#000000',
         'theme-blue': '#828282',
+        'dark-grey': '#828282',
+        'light-grey': '#BDBDBD',
         'k-White': '#FFFFFF',
         'card-black': '#28282B',
       },

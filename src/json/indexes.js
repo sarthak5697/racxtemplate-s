@@ -2,23 +2,23 @@
   {
     id: 'feature-1',
     icon: 'https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/Star.svg?updatedAt=1691489232936',
-    title: 'Intuitive Drag-and-Drop Interface',
+    title: 'worried the software cant manage the ever evolving needs in your factory ?',
     content:
-      'Effortlessly create custom admin dashboards with our user-friendly drag-and-drop interface. No coding required – streamline your manufacturing processes in just a few clicks.',
+      'Elevate your manufacturing journey with adaptable processes. Tailor every aspect of the factory operations effortlessly. Embrace the deep understanding of your operations and shape the software accordingly.',
   },
   {
     id: 'feature-2',
     icon: 'https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/Shield.svg?updatedAt=1691489233255',
-    title: 'End-to-End Automation',
+    title: 'Cant track progress in your factory ?',
     content:
-      'Automate your entire manufacturing journey from raw material sourcing to final product delivery. Our SAAS solution optimizes each stage, enhancing efficiency and reducing manual tasks',
+      'A central hub offering real-time visualizations and instant notifications. Stay informed about production progress and seize opportunities to optimize operations, all from a single, dynamic dashboard.',
   },
   {
     id: 'feature-3',
     icon: 'https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/Send.svg?updatedAt=1691489225441',
-    title: 'Real-Time Data Insights',
+    title: 'Afraid of complex softwares?',
     content:
-      'Gain valuable data-driven insights at your fingertips. Monitor production metrics, track performance, and make informed decisions to boost productivity and stay ahead of the competition',
+      'With us you can easily integrate existing factory softwares like tally with our simple to use and best in class software feautures from us  / manage every aspect from single dashboard without juggling between multiple softwares',
   },
 ];
 

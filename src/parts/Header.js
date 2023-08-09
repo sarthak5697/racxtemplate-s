@@ -62,7 +62,7 @@ export default function Header(props) {
               type="link"
               href="/discuss-project"
             >
-              Discuss Project
+              Lets Discuss
             </Button>
           </li>
         </ul>
@@ -112,7 +112,7 @@ export default function Header(props) {
                 type="link"
                 href="/discuss-project"
               >
-                Discuss Project
+                Lets Discuss
               </Button>
             </li>
           </ul>

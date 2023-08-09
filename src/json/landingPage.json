@@ -2,7 +2,6 @@
   "service": [
     {
       "imageUrl": "assets/images/Design.png"
-      
     },
     {
       "imageUrl": "assets/images/Mobile.png"
@@ -14,7 +13,10 @@
       "title": "Metal Industry",
       "imageUrl": "https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/metal.jpg?updatedAt=1691554156959",
       "type": "",
-      "responsibility": ["Advanced Customisatiomn", "Fully Customisable Dashboard"],
+      "responsibility": [
+        "Advanced Customisatiomn",
+        "Fully Customisable Dashboard"
+      ],
       "credit": ""
     },
     {
@@ -22,7 +24,10 @@
       "title": "Rubber Industry",
       "imageUrl": "https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/tire.jpg?updatedAt=1691499323262",
       "type": "",
-      "responsibility": ["Advanced Customisatiomn", "Fully Customisable Dashboard"],
+      "responsibility": [
+        "Advanced Customisatiomn",
+        "Fully Customisable Dashboard"
+      ],
       "credit": ""
     },
     {
@@ -30,32 +35,35 @@
       "title": "Spare Parts Industry",
       "imageUrl": "https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/spare.jpg?updatedAt=1691553766611",
       "type": "",
-      "responsibility": ["Advanced Customisatiomn", "Fully Customisable Dashboard"],
+      "responsibility": [
+        "Advanced Customisatiomn",
+        "Fully Customisable Dashboard"
+      ],
       "credit": ""
     }
   ],
   "advantage": [
     [
       {
-        "title": "Communicative",
-        "description": "We communicate our project ideas and progress to make it clear.",
+        "title": "Diverse and Experienced Team",
+        "description": "Our project is fueled by a team of industry-experienced professionals and experienced developers.",
         "imageUrl": "assets/images/Communicative.png"
       },
       {
-        "title": "Management",
-        "description": "We manage our project properly to make our project done well.",
+        "title": "Cost Effectiveness",
+        "description": "We provide advanced technical, cutting-edge solutions at highly economical pricing.",
         "imageUrl": "assets/images/Management.png"
       }
     ],
     [
       {
-        "title": "Collaborative​",
-        "description": "Our team are very collaborative to make our project done well.",
+        "title": "Limitless Adaptability",
+        "description": "We're here to solve all your industrial problems one at a time. You don't need to adopt multiple software solutions to achieve world-class efficiency.",
         "imageUrl": "assets/images/Collaborative.png"
       },
       {
-        "title": "Favourite",
-        "description": "We've did so many project and all of our client love it.",
+        "title": "Empowering Your Factory",
+        "description": "We collaborate with you and your factory workers to deliver a seamless experience.",
         "imageUrl": "assets/images/Favourite.png"
       }
     ]

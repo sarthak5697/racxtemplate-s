@@ -8,21 +8,20 @@ import features from '../json/indexes';
 const FeatureCard = ({
  icon, title, content, index,
 }) => (
-  <div
-    className={`flex flex-row p-6 rounded-[20px] ${
+  <div className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? 'mb-6' : 'mb-0'
     } feature-card`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue feature-card`}
     >
-      <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
+      <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain " />
     </div>
     <div className="flex-1 flex flex-col ml-3 ">
-      <h4 className="font-poppins font-semibold text-black text-[18px] leading-[23px] mb-1">
+      <h4 className="font-poppins font-semibold text-dark-grey text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-black text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-light-grey text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
@@ -39,11 +38,14 @@ export default function Service() {
           </h1>
 
           <p className="font-light text-lg text-gray-400 text-center mb-12 ">
-            We are ready to scale up your business with our great service.
+            Choose us to digitise your factory operations
           </p>
         </Fade>
-        <div className="flex flex-col flex-wrap p-4 gap-6">
-          <div className="flex flex-row flex-auto p-10 my-10 items-center content-between justify-around">
+
+        {/* container 1 */}
+
+        <div className="flex flex-col flex-wrap p-4 gap-1">
+          <div className="flex flex-row p-10 my-10 items-center content-between justify-evenly">
             <div className={`${layout.sectionImg} flex-col text-black`}>
               {features.map((feature, index) => (
 
@@ -56,7 +58,7 @@ export default function Service() {
               </div>
             </Fade>
           </div>
-
+          {/* container 2 */}
           <div className="flex flex-row-reverse flex-auto  p-10 my-10 items-center content-between justify-around">
             <div className={`${layout.sectionImg} flex-col text-black`}>
               {features.map((feature, index) => (
