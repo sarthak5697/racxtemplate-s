@@ -11,7 +11,7 @@ export default function Portfolio({ data }) {
   return (
     <section className="container mx-auto flex flex-col items-center mt-0">
       <Fade bottom>
-        <h1 className="text-5xl text-theme-blue text-center font-bold">See where we are helping</h1>
+        <h1 className="text-5xl text-theme-blue text-center font-bold">See who we are helping</h1>
 
         <p className="font-light text-lg text-gray-400 text-center mb-12">
           Industries and projects we are involved in
