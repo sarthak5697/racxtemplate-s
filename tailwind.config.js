@@ -25,15 +25,18 @@ module.exports = {
     },
     extend: {
       colors: {
+        'sub-heading-dark': '#615f5f',
         'container-purple': '#FFFFFF',
         'light-theme-purple': '#000000',
         'theme-purple': '#000000',
         'dark-theme-purple': '#000000',
-        'theme-blue': '#828282',
+        'sub-heading-light': '#757575',
         'dark-grey': '#828282',
         'light-grey': '#BDBDBD',
         'k-White': '#FFFFFF',
         'card-black': '#28282B',
+        'orange-color': '#F28C28',
+        'orange-text': '#fc9632',
       },
       margin: {
         '-112': '-28rem',

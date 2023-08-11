@@ -18,7 +18,7 @@ export default function Portfolio({ data }) {
         </p>
       </Fade>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 px-20 justify-items-center">
+      <div className="grid sm:grid-cols-3 sm:gap-2 xl:gap-8 px-20 justify-items-center grid-cols-1">
         {
                     data.map((item, index) => (
                       <Fade bottom delay={500 * index}>

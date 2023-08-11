@@ -10,9 +10,10 @@ export default function BrandIcon() {
       type="link"
       href="/"
     >
-      <p className="text-theme-blue text-4xl">
+      <p className="text-dark-grey text-4xl">
         Fata
-        <span className="text-theme-purple">Fat</span>
+        <span className="text-light-grey">Fat</span>
+        <span className="text-orange-color">.tech</span>
       </p>
     </Button>
   );

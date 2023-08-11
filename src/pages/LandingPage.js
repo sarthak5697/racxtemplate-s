@@ -10,8 +10,8 @@ import Advantage from 'parts/Advantage';
 // import Testimonial from 'parts/Testimonial';
 import Discuss from 'parts/Discuss';
 import Footer from 'parts/Footer';
-
 import Data from 'json/landingPage.json';
+// import GridAdvantage from 'parts/GridAdvantage';
 
 export default class LandingPage extends Component {
   componentDidMount() {
@@ -26,6 +26,7 @@ export default class LandingPage extends Component {
         <Service data={Data.service} />
         <Portfolio data={Data.portfolio} />
         <Advantage data={Data.advantage} />
+        {/* <GridAdvantage /> */}
         {/* <Testimonial data={Data.testimonial} /> */}
         <Discuss />
         <Footer />

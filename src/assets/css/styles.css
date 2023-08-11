@@ -11,10 +11,12 @@ section {
 }
 
 .header {
+  background-color:#28282B;
   @apply flex flex-col py-4 mb-4 justify-between;
 }
 
 .hero {
+  background-color: #FFFFFF;
   @apply container px-5 flex flex-col mx-auto;
 }
 

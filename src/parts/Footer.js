@@ -2,11 +2,11 @@
 import React from 'react';
 
 import BrandIcon from 'parts/BrandIcon';
-import Button from 'elements/Button';
+// import Button from 'elements/Button';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-50 border-t border-gray-200 pb-6">
+    <div className="bg-card-black border-t border-gray-200 pb-6">
       <div className="container flex-col mx-auto ">
         <div className="flex flex-col sm:flex-row mt-8 justify-center">
           <div className="w-1/3 flex-col ml-16 mr-8">
@@ -19,18 +19,18 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
-            <h1 className="text-lg text-black font-bold pt-4 pb-2">
-              Office
+            <h1 className="text-lg text-white font-bold pt-4 pb-2">
+              Contact Us
             </h1>
             <p className="text-lg text-gray-400 font-light">
-              rac.hafidz@gmail.com
+              fata.tech@gmail.com
             </p>
             <p className="text-lg text-gray-400 font-light">
-              Klaten, Central Java, Indonesia
+              +91 9999999
             </p>
           </div>
-          <div className="w-1/3 ml-16 sm:ml-0 mt-0">
-            <h1 className="text-lg text-black font-bold pt-4 pb-2">
+          {/* <div className="w-1/3 ml-16 sm:ml-0 mt-0">
+            <h1 className="text-lg text-white font-bold pt-4 pb-2">
               Social
             </h1>
             <Button href="https://www.instagram.com/racmathafidz/" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
@@ -42,9 +42,9 @@ export default function Footer() {
             <Button href="https://github.com/racmathafidz" type="link" target="_blank" className="flex text-lg text-gray-400 font-light hover:underline" isExternal>
               Github
             </Button>
-          </div>
+          </div> */}
         </div>
-        <div className="flex-col text-center mt-7">
+        {/* <div className="flex-col text-center mt-7">
           <p className="text-lg text-gray-400 font-light">
             Copyright 2021 - All rights reserved - Racxstudio
           </p>
@@ -56,7 +56,7 @@ export default function Footer() {
               Racmat Hafidz Fadli
             </Button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

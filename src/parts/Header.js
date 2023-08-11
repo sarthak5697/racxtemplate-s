@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
@@ -15,7 +16,7 @@ export default function Header(props) {
   const path = location.pathname;
 
   return (
-    <header className="header">
+    <header className="header ">
       <Fade>
         <div className="flex justify-between px-4 lg:px-0">
           <BrandIcon />
@@ -28,17 +29,18 @@ export default function Header(props) {
           </button>
         </div>
 
-        <ul className="hidden text-theme-blue tracking-widest items-center lg:flex flex-row mt-0">
+        <ul className="hidden text-white tracking-widest items-center lg:flex flex-row mt-0">
           <li>
             <Button
-              className={`${path === '/' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
+              className={`${path === '/home' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline `}
               type="link"
               href=""
             >
               Home
             </Button>
           </li>
-          <li className="py-2 lg:py-0">
+
+          {/* <li className="py-2 lg:py-0">
             <Button
               className={`${path === '/team' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
               type="link"
@@ -46,19 +48,19 @@ export default function Header(props) {
             >
               Our Work
             </Button>
-          </li>
+          </li> */}
           <li className="py-2 lg:py-0">
             <Button
               className={`${path === '/project' ? 'active-link' : ''} text-lg px-5 no-underline hover:underline`}
               type="link"
-              href="/project"
+              href="#product-section"
             >
               Project
             </Button>
           </li>
           <li>
             <Button
-              className="text-lg mx-auto ml-3 px-6 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200"
+              className="text-lg mx-auto ml-3 px-6 py-2 bg-dark-grey text-white rounded-full border-2 border-white hover:bg-dark-theme-purple transition duration-200"
               type="link"
               href="/discuss-project"
             >

@@ -2,7 +2,7 @@
   {
     id: 'feature-1',
     icon: 'https://ik.imagekit.io/uqqv36val/images/FATAFAT%20images/Star.svg?updatedAt=1691489232936',
-    title: 'worried the software cant manage the ever evolving needs in your factory ?',
+    title: 'Worried the software cant manage the ever evolving needs in your factory ?',
     content:
       'Elevate your manufacturing journey with adaptable processes. Tailor every aspect of the factory operations effortlessly. Embrace the deep understanding of your operations and shape the software accordingly.',
   },
