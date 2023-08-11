@@ -25,6 +25,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        'card-white': '#e8e6e6',
         'sub-heading-dark': '#615f5f',
         'container-purple': '#FFFFFF',
         'light-theme-purple': '#000000',

@@ -94,8 +94,60 @@ export default function PortfolioDetail({ data }) {
                 Project Detail
               </h1>
 
-              <p className="font-light text-lg text-gray-400 text-justify">
+              <p className="font-light text-lg text-sub-heading-light text-justify">
                 {item.projectDescription}
+                <br />
+                <span className="font-bold text-xl text-dark-grey">
+                  Key Points and Achievements :
+                </span>
+                <br />
+                End-to-End Production Planning Interactive Dashboard and DIY
+                Production Planner Seamless Job Card and Workstation Allocation
+                Tally Integration Multi-Company Management in a Single Unit
+                <br />
+                <span className="font-bold text-xl text-dark-grey ">
+                  Benefits and Outcomes :
+                </span>
+                <br />
+                <span className="font-light text-dark-grey ">
+                  1: Enhanced Operational Efficiency:
+                </span>
+                <br />
+                The digitized processes led to a significant boost in
+                operational efficiency, minimizing manual errors and reducing
+                lead times.
+                <br />
+                <span className="font-light text-dark-grey ">
+                  2: Improved Decision-Making
+                </span>
+                <br />
+                Real-time data insights
+                from integrated systems empowered Sampat Industries with the
+                information needed for agile and informed decision-making.
+                <br />
+                <span className="font-light text-dark-grey ">
+                  3: Customer Satisfaction
+                </span>
+                <br />
+                The streamlined processes resulted in
+                prompt delivery, consistent quality, and adherence to client
+                specifications, strengthening customer relationships.
+                <br />
+                <span className="font-light text-dark-grey ">
+                  4: Competitive Edge
+                </span>
+                <br />
+                Implementing advanced tools, seamless
+                integration, and multi-company management provided Sampat
+                Industries with a competitive advantage in the market.
+                <br />
+                <span className="font-light text-dark-grey ">
+                  5: Future Ready Infrastructure
+                </span>
+                <br />
+                The digitized ecosystem sets the
+                foundation for scalability, adaptability, and future growth,
+                positioning Sampat Industries for continued success.
               </p>
             </div>
 
