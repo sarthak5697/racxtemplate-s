@@ -89,21 +89,25 @@ export default function PortfolioDetail({ data }) {
           </Fade>
 
           <Fade bottom delay={300 * 1}>
-            <div className="flex flex-col mt-16 mb-12 mx-8 sm:mx-16 xl:mx-28">
+            <div className="flex flex-col mt-16 mb-12 mx-8 sm:mx-16 xl:mx-28 whitespace-normal">
               <h1 className="text-3xl text-theme-blue font-bold mb-3">
                 Project Detail
               </h1>
 
-              <p className="font-light text-lg text-sub-heading-light text-justify">
+              <p className="font-light text-lg text-sub-heading-light text-justify whitespace-normal">
                 {item.projectDescription}
                 <br />
                 <span className="font-bold text-xl text-dark-grey">
                   Key Points and Achievements :
                 </span>
                 <br />
-                End-to-End Production Planning Interactive Dashboard and DIY
-                Production Planner Seamless Job Card and Workstation Allocation
-                Tally Integration Multi-Company Management in a Single Unit
+                <ul className="list-disc px-12 py-2">
+                  <li>  End-to-End Production Planning </li>
+                  <li> Interactive Dashboard and DIY Production Planner</li>
+                  <li> Seamless Job Card and Workstation Allocation </li>
+                  <li> Tally Integration </li>
+                  <li>Multi-Company Management in a Single Unit</li>
+                </ul>
                 <br />
                 <span className="font-bold text-xl text-dark-grey ">
                   Benefits and Outcomes :

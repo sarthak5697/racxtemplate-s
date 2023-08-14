@@ -9,12 +9,11 @@ import BuildWebsite from 'assets/images/Startup.png';
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero flex flex-col items-center content-center">
       <Fade bottom>
-        <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8 text-center sm:text-left">
-          <h1 className="text-5xl sm:text-6xl text-sub-heading-dark font-bold leading-tight mb-5">
+        <div className="w-full content-center items-center lg:w-1/2 xl:pl-12 sm:pr-2 mt-8 text-center sm:text-left">
+          <h1 className="text-3xl sm:text-6xl text-sub-heading-dark font-bold leading-tight mb-5">
             Grow Your Business
-            {' '}
             <br />
             Using Smart Factory Management System
           </h1>
@@ -24,7 +23,7 @@ export default function Hero() {
             to help you scale up your business.
           </p>
 
-          <Button href="/project" type="link" className="flex w-71 h-18 items-center px-14 py-5 text-white text-xl bg-theme-purple rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200">
+          <Button href="/project" type="link" className="mx-auto sm:mx-0 flex w-71 h-18 items-center self-center px-14 py-5 text-white text-xl bg-card-black rounded-lg shadow-2xl hover:bg-orange-color transition duration-200">
             Lets Discuss
             <svg className="ml-2 w-7 h-7 text-white animate-bounce-x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

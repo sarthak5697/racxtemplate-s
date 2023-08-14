@@ -13,12 +13,12 @@ export default function Timeline() {
         {/* Stack 1 */}
         <div className="col-span-12 w-full h-full sm:col-span-4 p-5 sm:p-0 text-center">
           <Fade bottom>
-            <div className="shadow-xl w-full h-full bg-card-white rounded-2xl p-4 pb-10 pr-10 md:pl-4">
+            <div className="shadow-xl w-full h-full bg-card-black rounded-2xl p-4 pb-10 pr-10 md:pl-4">
               <h1 className="text-orange-text text-2xl font-light-bold py-2">
-                Worried the software cant manage the ever evolving needs in your
+                Worried that the current software cant manage the ever evolving needs in your
                 factory ?
               </h1>
-              <p className="text-card-black sm:text-sm text-xs">
+              <p className="text-gray-200 sm:text-sm text-xs">
                 Elevate your manufacturing journey with adaptable processes.
                 Tailor every aspect of the factory operations effortlessly.
                 Embrace the deep understanding of your operations and shape the
@@ -47,11 +47,11 @@ export default function Timeline() {
 
         <div className="col-span-12 w-full h-full sm:col-span-4 p-5 sm:p-0 text-center">
           <Fade bottom>
-            <div className="shadow-xl w-full h-full bg-card-white rounded-2xl p-4 pb-10 pr-10 md:pl-4">
+            <div className="shadow-xl w-full h-full bg-card-black rounded-2xl p-4 pb-10 pr-10 md:pl-4">
               <h1 className="text-orange-text text-2xl font-light-bold py-2">
                 Cant track progress in your factory ?
               </h1>
-              <p className="text-card-black sm:text-sm text-xs">
+              <p className="text-gray-200 sm:text-sm text-xs">
                 A central hub offering real-time visualizations and instant
                 notifications. Stay informed about production progress and seize
                 opportunities to optimize operations, all from a single, dynamic
@@ -63,11 +63,11 @@ export default function Timeline() {
         {/* Stack 3 */}
         <div className="col-span-12 w-full h-full sm:col-span-4 p-5 sm:p-0 text-center">
           <Fade>
-            <div className="shadow-xl w-full h-full bg-card-white rounded-2xl p-4 pb-10 pr-10 md:pl-4">
+            <div className="shadow-xl w-full h-full bg-card-black rounded-2xl p-4 pb-10 pr-10 md:pl-4">
               <h1 className="text-orange-text text-2xl font-light-bold py-2">
-                Afraid of complex softwares?
+                Afraid of complex softwares ?
               </h1>
-              <p className="text-card-black sm:text-sm text-xs">
+              <p className="text-gray-200 sm:text-sm text-xs whitespace-normal">
                 With us you can easily integrate existing factory softwares like
                 tally with our simple to use and best in class software
                 feautures from us / manage every aspect from single dashboard
