@@ -43,7 +43,10 @@ export default class LandingPage extends Component {
   render() {
     return (
       <>
-        <Header {...this.props} scrollToPortfolio={this.handleScrollToPortfolio} />
+        <Header
+          {...this.props}
+          scrollToPortfolio={this.handleScrollToPortfolio}
+        />
         <Hero {...this.props} />
         <Service data={Data.service} />
         <div ref={this.portfolioRef}>

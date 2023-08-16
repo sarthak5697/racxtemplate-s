@@ -14,6 +14,9 @@ export default function Header(props) {
   const { location, scrollToPortfolio } = props;
   const [isCollapse, setIsCollapse] = useState(false);
   const path = location.pathname;
+
+  console.log(path);
+
   // const ref = useRef(null);
   // const handleClick = () => {
   //   ref.current?.scrollIntoView({ behaviour: 'smooth' });
@@ -78,17 +81,24 @@ export default function Header(props) {
             </Button>
           </li> */}
             <li className="py-2 lg:py-0">
-              <Button
-                className="text-lg px-5 no-underline hover:underline"
+              {
+                path !== '/'
+                ? null
+                : (
+                  <Button
+                    className="text-lg px-5 no-underline hover:underline"
                 // className={`${
                 //   path === '/project' ? 'active-link' : ''
                 // } text-lg px-5 no-underline hover:underline`}
-                type="link"
+                    type="link"
                 // href="#product-section"
-                onClick={scrollToPortfolio}
-              >
-                Project
-              </Button>
+                    onClick={scrollToPortfolio}
+                  >
+                    Project
+                  </Button>
+)
+              }
+
             </li>
             <li>
               <Button
