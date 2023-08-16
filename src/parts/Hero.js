@@ -23,7 +23,7 @@ export default function Hero() {
             to help you scale up your business.
           </p>
 
-          <Button href="/project" type="link" className="mx-auto sm:mx-0 flex w-71 h-18 items-center self-center px-14 py-5 text-white text-xl bg-card-black rounded-lg shadow-2xl hover:bg-orange-color transition duration-200">
+          <Button href="/discuss-project" type="link" className="mx-auto sm:mx-0 flex w-71 h-18 items-center self-center px-14 py-5 text-white text-xl bg-card-black rounded-lg shadow-2xl hover:bg-orange-color transition duration-200">
             Lets Discuss
             <svg className="ml-2 w-7 h-7 text-white animate-bounce-x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

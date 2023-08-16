@@ -11,12 +11,16 @@ import Button from 'elements/Button';
 import BrandIcon from 'parts/BrandIcon';
 
 export default function Header(props) {
-  const { location } = props;
+  const { location, scrollToPortfolio } = props;
   const [isCollapse, setIsCollapse] = useState(false);
   const path = location.pathname;
+  // const ref = useRef(null);
+  // const handleClick = () => {
+  //   ref.current?.scrollIntoView({ behaviour: 'smooth' });
+  // };
 
   return (
-    <div className="bg-orange-color border-t border-gray-200">
+    <div className="bg-card-black border-t border-gray-200">
       <header className="header">
         <Fade>
           <div className="flex justify-between px-4 lg:px-0">
@@ -75,11 +79,13 @@ export default function Header(props) {
           </li> */}
             <li className="py-2 lg:py-0">
               <Button
-                className={`${
-                  path === '/project' ? 'active-link' : ''
-                } text-lg px-5 no-underline hover:underline`}
+                className="text-lg px-5 no-underline hover:underline"
+                // className={`${
+                //   path === '/project' ? 'active-link' : ''
+                // } text-lg px-5 no-underline hover:underline`}
                 type="link"
-                href="#product-section"
+                // href="#product-section"
+                onClick={scrollToPortfolio}
               >
                 Project
               </Button>
@@ -118,7 +124,7 @@ export default function Header(props) {
                   Home
                 </Button>
               </li>
-              <li className="py-2 bg-white">
+              {/* <li className="py-2 bg-white">
                 <Button
                   className={`${
                     path === '/team' ? 'active-link' : ''
@@ -128,14 +134,14 @@ export default function Header(props) {
                 >
                   Team
                 </Button>
-              </li>
+              </li> */}
               <li className="py-2 bg-white">
                 <Button
                   className={`${
                     path === '/project' ? 'active-link' : ''
                   } px-10 no-underline hover:underline`}
                   type="link"
-                  href="/project"
+                  onClick={scrollToPortfolio}
                 >
                   Project
                 </Button>

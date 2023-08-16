@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
@@ -6,8 +7,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 import Button from 'elements/Button';
+// eslint-disable-next-line no-unused-vars
+import { forwardRef } from 'react/cjs/react.production.min';
 
-export default function Portfolio({ data }) {
+ export default function Portfolio({ data }) {
   return (
     <section className="container mx-auto flex flex-col items-center mt-0">
       <Fade bottom>
@@ -47,7 +50,7 @@ export default function Portfolio({ data }) {
       </div>
 
       <Fade bottom>
-        <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-purple px-5 border border-theme-purple items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-purple hover:text-white">
+        {/* <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-purple px-5 border border-theme-purple items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-purple hover:text-white">
           <p className="font-normal py-3 lg:text-lg xl:text-base">
             See More
           </p>
@@ -57,8 +60,10 @@ export default function Portfolio({ data }) {
           <svg className="w-4 h-4 -ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-        </Button>
+        </Button> */}
       </Fade>
     </section>
   );
 }
+
+// export default forwardRef(Portfolio);

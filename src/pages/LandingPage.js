@@ -14,17 +14,41 @@ import Data from 'json/landingPage.json';
 // import GridAdvantage from 'parts/GridAdvantage';
 
 export default class LandingPage extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
+  // constructor(props) {
+  //   super(props);
+  //   this.ref = React.createRef();
+  // }
+
+  // componentDidMount() {
+  //   window.scrollTo(0, 0);
+  // }
+
+  // ref = React.useRef(null);
+
+  // handleClick = () => {
+  //   ref.current?.scrollIntoView({ behavior: 'smooth' });
+  // };
+
+  constructor(props) {
+    super(props);
+    this.portfolioRef = React.createRef();
   }
+
+  handleScrollToPortfolio = () => {
+    console.log('work');
+
+    this.portfolioRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
   render() {
     return (
       <>
-        <Header {...this.props} />
+        <Header {...this.props} scrollToPortfolio={this.handleScrollToPortfolio} />
         <Hero {...this.props} />
         <Service data={Data.service} />
-        <Portfolio data={Data.portfolio} />
+        <div ref={this.portfolioRef}>
+          <Portfolio data={Data.portfolio} />
+        </div>
         <Advantage data={Data.advantage} />
         {/* <GridAdvantage /> */}
         {/* <Testimonial data={Data.testimonial} /> */}
