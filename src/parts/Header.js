@@ -81,24 +81,19 @@ export default function Header(props) {
             </Button>
           </li> */}
             <li className="py-2 lg:py-0">
-              {
-                path !== '/'
-                ? null
-                : (
-                  <Button
-                    className="text-lg px-5 no-underline hover:underline"
-                // className={`${
-                //   path === '/project' ? 'active-link' : ''
-                // } text-lg px-5 no-underline hover:underline`}
-                    type="link"
-                // href="#product-section"
-                    onClick={scrollToPortfolio}
-                  >
-                    Project
-                  </Button>
-)
-              }
-
+              {path !== '/' ? null : (
+                <Button
+                  className="text-lg px-5 no-underline hover:underline"
+                  // className={`${
+                  //   path === '/project' ? 'active-link' : ''
+                  // } text-lg px-5 no-underline hover:underline`}
+                  type="link"
+                  // href="#product-section"
+                  onClick={scrollToPortfolio}
+                >
+                  Project
+                </Button>
+              )}
             </li>
             <li>
               <Button
@@ -146,15 +141,17 @@ export default function Header(props) {
                 </Button>
               </li> */}
               <li className="py-2 bg-white">
-                <Button
-                  className={`${
-                    path === '/project' ? 'active-link' : ''
-                  } px-10 no-underline hover:underline`}
-                  type="link"
-                  onClick={scrollToPortfolio}
-                >
-                  Project
-                </Button>
+                {path !== '/' ? null : (
+                  <Button
+                    className={`${
+                      path === '/project' ? 'active-link' : ''
+                    } px-10 no-underline hover:underline`}
+                    type="link"
+                    onClick={scrollToPortfolio}
+                  >
+                    Project
+                  </Button>
+                )}
               </li>
               <li className="mx-auto my-9 bg-white">
                 <Button

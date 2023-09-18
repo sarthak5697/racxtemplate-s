@@ -23,10 +23,10 @@ export default function Footer() {
               Contact Us
             </h1>
             <p className="text-lg text-gray-400 font-light">
-              fata.tech@gmail.com
+              kunal@fatafat.tech
             </p>
             <p className="text-lg text-gray-400 font-light">
-              +91 9999999
+              +91 98105 42626
             </p>
           </div>
           {/* <div className="w-1/3 ml-16 sm:ml-0 mt-0">
